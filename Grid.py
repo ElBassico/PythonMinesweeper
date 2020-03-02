@@ -71,6 +71,10 @@ class Grid:
                     x += self._length
                     y += 1
                     break
+    
+    def determine_neighbours(self, position):
+        neighbours  = []
+        
 
 
 veld = Grid(5,5,10)
